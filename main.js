@@ -1,4 +1,4 @@
-let alarmSound = new Audio('y2mate.com - báo thức dậy đi ông cháu ơi.mp3'); // đặt biến có giá trị là tiếng nhạc chuông
+let alarmSound = new Audio('y2mate.com - Còi báo thức âm thanh kinh hoàng trong quân đội.mp3'); // đặt biến có giá trị là tiếng nhạc chuông
 
 function start_function() {
     let minutes = document.getElementById("minutes").value; // lưu biến phút được nhập từ input
@@ -25,7 +25,7 @@ function start_function() {
                 clearInterval(timer);
                 alarmSound.play();
                 setTimeout(function() {
-                    alert('Dậy đi ông cháu ơi')
+                    alert('Thức tỉnh đi')
                 }, 100)
                 
             }
