@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>HẸN GIỜ</h1>
+        <form id="myForm">
+            <input id="minutes" type="number" placeholder="Nhập số phút">
+            <input id="seconds" type="number" placeholder="Nhập số giây">
+            <br>
+        </form>
+        <div class="clock">
+            <div class="clock-ele">
+                <div id="minutesleft">00</div>
+            </div>
+            <div class="clock-ele">
+                <div id="secondsleft">00</div>
+            </div>
+        </div>
+        <button type="button" onclick="start_function()">BẮT ĐẦU</button>
+        <button type="button" onclick="reset_function()">ĐẶT LẠI</button>
+        <p>Nhấn đặt lại để tắt chuông</p>
+        <p id="output"></p>
+    </div>
+</body>
+</html>
